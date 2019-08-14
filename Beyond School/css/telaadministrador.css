@@ -1,0 +1,194 @@
+body{
+	height: 500px;
+}
+/* configuraçao header */
+#cabecalho{
+	clear: both;
+	padding-bottom: 5px;
+}
+hr{
+	background-color: #7E55F3;
+	clear:both;
+	height: 1px;
+	width: auto;
+}
+#logo{
+	float: left;
+	margin-left: 15px;
+}
+
+#titulo1{
+	color: #47525E;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	left: 80px;
+	position: relative;
+	top:30px;
+}
+#titulo2{
+	color: #47525E;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	left: 810px;
+	position: relative;
+	top: 30px;
+}
+#usuario{
+	border-radius: 100px;
+	left: 830px;
+	height: 50px;
+	position: relative;
+	top: 15px;
+	width: 50px;
+}
+/* fim configuraçao headers */
+
+/* configuraçao div quadrolateral */
+#imagem{
+	float: left;
+	left: 00px;
+	position: relative;
+	top: 100px;
+}
+.linksLaterais{
+	font-size: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+#quadradoLateral{
+	background-color: rgba(195,203,212,0.8);
+	color: #47525E;
+	float: left;
+	height: 435px;
+	width: 220px;
+}
+#quadradoLateral, .menuLateral{
+	list-style-type: nome;
+	margin-left: 10px;
+	padding: 10px;
+}
+a{
+	color: #47525E;
+}
+#quadradoLateral a{
+	text-decoration: none;
+	padding: 50px;
+}
+/* fim configuraçao div quadradoLateral */
+/* configuraçao div info */
+#info{
+	position: relative;
+}
+#quadradoAzul{
+	background-color: 5DBAED;
+	/*float: left;*/
+	height: 200px;
+	left: 350px;
+	position: absolute;
+	top: 230px;
+	width: 300px;
+}
+#quadradoAzulClaro{
+	background-color: EFF3F7;
+	float: left;
+	height: 200px;
+	left: 350px;
+	position: absolute;
+	width: 300px;
+}
+
+#quadradoMarrom{
+	background-color: E9A27A;
+	clear: right;
+	float: left;
+	height: 200px;
+	left: 1000px;
+	position: absolute;
+	width: 300px;
+}
+#quadradoVerde{
+	background-color: 14B95D;
+	/*float: left*/
+	height: 200px;
+	left: 1000px;
+	position: absolute;
+	top: 230px;
+	width: 300px;
+}
+#pais, #turmas, #alunos, #teachers{
+	color: #47525E;
+	float: left;
+	font-size: 21px;
+	left: 60px;
+	position: relative;
+	text-align: center;
+	top: 20px;
+}
+/* configuraçao das imagens dos quadros coloridos */
+#picpai, #sino, #cap, #picteachers{
+	float: left;
+	left: 140px;
+	position: relative;
+	top: 15px;	
+}
+#picteachers{
+	left: 100px;
+}
+/* configuração em comun das frases "mais informações"*/
+#info1, #info2, #info3, #info4{
+	color: #47525E;
+	float: left;
+	font-size: 18px;
+}
+
+/* configuração do quadradoAzulClaro QTD PAIS e QTD Turmas*/
+#info1{
+	left: -40px;
+}
+#info2{
+	left: -50px;
+}
+#info1, #info2{
+	position: relative;
+	top: 145px;
+}
+#prox1{
+	left: -40px;
+}
+#prox2{
+	left: -50px;
+}
+#prox1, #prox2{
+	float: left;
+	position: relative;
+	top: 140px;
+}
+/* fim configuração do quadradoAzulClaro QTD PAIS*/
+
+/* configuração do quadradoAzulClaro QTD Professores e QTD Alunos*/
+#info3{
+	left: -90px;
+	position: relative;
+	top: 145px;
+}
+#info4{
+	left: -50px;
+	position: relative;
+	top: 145px;
+}
+#prox3{
+	left: 40px;
+	position: relative;
+	top: 123px;
+}
+#prox4{
+	left: -50px;
+	position: relative;
+	top: 140px;
+}
+/* fim configuração do quadradoAzulClaro QTD PAIS*/
+
+/* fim configuração div info */

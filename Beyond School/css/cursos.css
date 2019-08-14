@@ -1,0 +1,78 @@
+a{
+	text-decoration: none;	
+}
+#adol{
+	left: 600px;
+}
+#adul{
+	right: 150px;
+}
+.crianca{
+	height: 500px;
+	position: relative;
+	width: auto;
+	/*margin-top: -130px;*/
+	margin-bottom: 30px;
+}
+#crian, #adol, #adul{
+	color: #47525E;
+	position: absolute;
+	top: 40px;
+	margin-bottom: 20px;
+}
+#crian{
+	left: 150px;
+}
+#cursos{
+	clear: both;
+	color: #343F4B;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.idpage{
+	position: absolute;
+	top: 750px;
+	left: 600px;
+}
+#iconeBook{
+	background-image: url(../img/book.png);
+	background-repeat: no-repeat;
+	height: 55px;
+	left: 20px;
+
+	padding-top: 10px;
+	position: relative;
+}
+.kid1, .kid2, .kid3{
+	background-color: rgba(216,217,219, 0.5);
+	font-size: 20px;
+	float: left;
+	height: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-right: 15px;
+	position: absolute;
+	text-align: center;
+	width: 380;
+}
+.kid1, .kid2, .kid3{
+	top:90px;
+}
+.kid2{
+	right: 480px;
+}
+.kid3{
+	right: 1px;
+}
+
+#nomelivro{
+	position: relative;
+	top: -50px;
+}
+p{
+	text-align: justify;
+	margin-left: 5px;
+	margin-right: 5px;
+}

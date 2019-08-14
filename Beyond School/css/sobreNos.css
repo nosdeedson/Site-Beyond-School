@@ -1,0 +1,44 @@
+#bemVindos{
+	color: #343F4B;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+	padding-left: 40px;
+	position: relative;
+	top: -7px;
+}
+#descricao{
+	font-family: "Times New Roman", Times, serif;
+	/*margin-top: -130px;*/
+	position: relative;
+}
+#history{
+	color: #607A97;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	left: 210px;
+	position: absolute;
+	top: -2px;
+}
+.idpage{
+	position: absolute;
+	top: 750px;
+	left: 600px;
+}
+p{
+	color: #343F4B;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	text-align: justify;
+}
+#profe{
+	color: #47525E;
+	padding-left: 10px;
+}
+strong{
+	font-weight: bold;
+}

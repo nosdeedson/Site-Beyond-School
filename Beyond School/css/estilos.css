@@ -1,0 +1,581 @@
+
+/*header*/
+.cabecalho{
+	margin-bottom: -150px;
+}
+#botaonos, #botaocursos{
+	border: solid 1px white;
+	border-radius: 8px;
+	box-shadow: -3px -3px rgba(255,255,255, 0.7);
+	font-size: 22px;
+	height: 30px;
+	left: 1200px;
+	position: relative;
+	width: 130px;
+}
+#botaonos{
+	left: 1150px;
+	top: -298px;
+}
+#botaocursos{
+	left: 1000px;
+	top: -330px;
+}
+.link{
+	color: white;
+	padding-left: 20px;
+	padding-top: 25px;
+	text-decoration: none;
+}
+.logoCabecalho{
+	background-image: url(../img/logoRedimensionado.png);
+	background-position: center;
+	background-size: cover;
+	font-family: "Times New Roman", Times, serif;
+	filter:contrast(100%) brightness(60%);
+	width: 100%;
+	height: 800px;
+}
+
+.linksheader{
+	margin-left: 750px;
+}
+.linksheader ul li{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	position: relative;
+	text-decoration: none;
+	top: -755px;
+}
+.linksheader li{
+	display: inline;
+	padding-right: 35px;
+	top: 30px;	
+}
+.linksheader a{
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: white;
+}
+.Linha{
+	background-color: white;
+	color: 000000;
+	height: 1px;
+	position: relative;
+	top: -755px;
+	width: 100%;
+}
+#mundo{
+	left: 900px;
+	position: relative;
+	top: -450px;
+	width: 430px;
+}
+#slogan{
+	color: rgba(255,255,255, 0.7);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	text-shadow: 4px 4px 8px black;
+}
+/*fim header*/
+/* configuração da div niveis */
+#book1, #book2, #book3{
+	font-family: "Times New Roman", Times, serif;
+	background-image: url('../img/book.png');
+	background-repeat: no-repeat;
+	float: left;
+	font-family: inherit; 
+	height: 55px;
+	padding-left: 25px;
+	position: relative;
+	top: 10px;
+	width: 55px;
+}
+#book1{
+	left: 20px;
+	top: 30px;
+}
+#book2{
+	left: -60px;
+	top: 90px;
+}
+#book3{
+	left: 20px;
+	top: 120px;
+}
+
+#bookH31, #bookH32, #bookH33{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	float: right;
+	left: 2px;
+	padding-right: 20px;
+	position: relative;
+	text-align: center;
+}
+#bookH31{
+	top: 45px;
+}
+#bookH32{
+	top: 55px;
+}
+#bookH33{
+	top: 120px;
+}
+.Cursos{
+	height: 470px;
+	margin-left: 30px;
+	margin-top: -130px;
+	position: relative;
+	width: auto;
+}
+.Niveis2{
+	font-family: "Times New Roman", Times, serif;
+	position: absolute;
+	right: 540px;
+}
+.Niveis3{
+	position: absolute;
+	right: 100px;
+}
+.Niveis1, .Niveis2, .Niveis3 {
+	font-family: "Times New Roman", Times, serif;
+	background-color: rgba(150,159,170,0.2);
+	border: 1px solid;
+	box-shadow: 5px 10px 8px #888888;
+	float: left;
+	height: 330px;
+	margin-left: 45px;
+	padding: 10px;
+	width: 330px;
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	text-align: center;
+}
+#nossosCursos{ 
+	font-family: font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	position: absolute;
+	left: 160px;
+	top: 8px;
+}
+#welcome{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#1{
+	position: relative;
+	top: 330px;
+}
+/* fim da configuração da div cursos*/
+
+/* configuração da div workers*/
+.Degree, .Institution, .Name{
+	background-color: rgba(150,159,170,0.2);
+	background-repeat: no-repeat;
+	border: 1px solid;
+	box-shadow: 5px 10px 8px #888888;
+	float: left;
+	font-size: 20px;
+	height: 300px;
+	list-style-position: inside;
+	margin-left: 70px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	
+}
+.Institution{
+	width: 320px;
+	right: 100px;
+}
+.Degree{
+	right: 505px;
+	width: 300px;
+}
+.Name{
+	width: 300px;
+}
+
+#nome1, #nome2, #nome3, #nome4{
+	background-image: url('../img/mao.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 55px;
+	padding-left: 30px;
+	position:relative;
+	width: 55px;
+}
+#nome1{
+	left: 30px;
+	float: left;
+	top: -10px;
+}
+#nome2{
+	left: -115px;
+	top: 50px;
+}
+#nome3{
+	left: 28px;
+	top: 70px;
+}
+#nome4{
+	left: -120px;
+	top: 135px;
+}
+#nomeH41, #nomeH42, #nomeH43, #nomeH44{
+	font-size: 20px;
+	font-family:  "Times New Roman", Times, serif;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+#nomeH41{
+	top: 5px;
+}
+#nomeH42{
+	left: -140px;
+	top: 70px;
+}
+#nomeH43{
+	left: 0px;
+	top: 85px;
+}
+#nomeH44{
+	left: -145px;
+	top: 150px;
+}
+#graduacao1,#graduacao2, #graduacao3, #graduacao4{
+	background-image: url('../img/cap.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 55px;
+	padding-left: 25px;
+	padding-right: 60px;
+	position:relative;
+	
+	width: 55px;
+}
+#graduacao1{
+	left: 100px;
+	top: -10px;
+}
+#graduacao2{
+	left: -40px;
+	top: 40px;	
+}
+#graduacao3{
+	left: 50px;
+	top: 55px;	
+}
+#graduacao4{
+	left: 100px;
+	top: 65px;	
+}
+#graduacaoH41, #graduacaoH42, #graduacaoH43, #graduacaoH44{
+	font-size: 20px;
+	font-family:  "Times New Roman", Times, serif;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+#graduacaoH41{
+	left: 40px;
+}
+#graduacaoH42{
+	left: 180px;
+	top: 0px;
+}
+#graduacaoH43{
+	left: -10px;
+	top: 75px;
+}
+#graduacaoH44{
+	left: 40px;
+	top: 80px;
+}
+#instituicao1, #instituicao2, #instituicao3, #instituicao4{
+	background-image: url('../img/institution.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 55px;
+	padding-left: 25px;
+	padding-right: 60px;
+	position:relative;
+	top: 12px;
+	width: 55px;
+}
+#instituicao1{
+	left: -5px;
+	top: -5px;
+}
+#instituicao2{
+	left: -5px;
+	top: -15px;
+}
+#instituicao3{
+	left: -145px;
+	top: 30px;
+}
+#instituicao4{
+	left: -45px;
+	top: 35px;
+}
+#instituicaoH41, #instituicaoH42, #instituicaoH43, #instituicaoH44{
+	font-size: 20px;
+	font-family:  "Times New Roman", Times, serif;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+#instituicaoH41{
+	left: 55px;
+	top: -40px;
+}
+#instituicaoH42{
+	left: -85px;
+	top: 5px;
+}
+#instituicaoH43{
+	left: 55px;
+	top: -10px;
+}
+#instituicaoH44{
+	left: -130px;
+	top: 50px;
+}
+.Profissionais{
+	font-size: 22px;
+	font-family:  "Times New Roman", Times, serif;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.Workers{
+	height: 400px;
+	left: 25px;
+	position: relative;
+	width: 1300;
+	
+}
+/* fim da configuração da div workers*/
+
+/* configuração da div serviço*/
+.servicos{
+	text-align: center; /* refere-se ao título */
+	margin-bottom: 40px;
+}
+.servico{
+	height: 280px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	position: relative;
+	width: auto;
+}
+#tipoAulaGrupo, #tipoAula{
+	background-color: rgba(150,159,170,0.2);
+	border: 1px solid;
+	box-shadow: 0px 10px 8px #888888;
+	font-family: font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	float: left;
+	font-size: 20px;
+	height: 120px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	width: 350px; 
+}
+#tipoAula{
+	right: 220px;
+	top: 70px;
+}
+#tipoAulaGrupo{
+	left: 130px;
+}
+/* fim da configuração da div serviço*/
+
+/* configuração da div teachers*/
+figure{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	text-align: center;
+}
+.Professores{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+#prof1, #prof2, #prof3, #prof4{
+	float: left;
+	font-size: 20px;
+	height: 200px;
+	width: 200px;
+	padding-right: 40px;
+	padding-left: 80px;
+}
+.teachers img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+.teachers{
+	position: relative;
+	height: 380px;
+	width: auto;
+}
+/* fim da configuração da div teachers*/
+
+/*configuração do footer */
+.Address, .Fone, .Cel, .Email{
+	float: left;
+	left: 20px;
+	position: absolute;
+}
+
+.cel{
+	top: 280px;
+}
+.Endereco, .NumeroFone, .NumeroCel, .TituloEmail{
+	clear: right;
+	color: #969FAA;
+	position: relative;
+	left: 80px;
+	top: 10px;
+}
+.Email{
+	top: 380px;
+}
+.face{
+	position: absolute;
+	left: 70px;
+}
+.Fale, .Follow, .MenuRodape{
+	width: 299px;
+}
+.Fale{
+	color: white;
+	float: left;
+}
+.FaleConosco, .Follow, .MenuRodape{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;	
+	padding-top: 10px;
+	position: relative;
+}
+.FaleConosco{
+	clear: both;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+.Follow{
+	color: white;
+	float: left;
+	left: 300px;
+	padding-bottom: 35px;
+}
+.Follow img{
+	padding-right: 0;
+	padding-top:20px;
+}
+.Fone{
+	top: 170px;
+}
+.Info{
+	background-color: #33393F;
+	height: 440px;
+	margin-top: 0;
+	position: relative;
+	width: auto;
+}
+.insta{
+	position: absolute;
+	left: -45px;
+}
+.LinhaMenuRodape1, .LinhaMenuRodape2, .LinhaMenuRodape3, .LinhaMenuRodape4, .LinhaMenuRodape5, .LinhaMenuRodape6{
+	left: 290px;
+	position: absolute;
+	width: 70%;
+}
+.LinhaMenuRodape1{
+	top: 20px;
+}
+.LinhaMenuRodape2{
+	top: 80px;
+}
+.LinhaMenuRodape3{
+	top: 162px;
+}
+.LinhaMenuRodape4{
+	top: 243px;
+}
+.LinhaMenuRodape5{
+	top: 325px;
+}
+.LinhaMenuRodape6{
+	top: 408px;
+}
+.LinksRodape li{
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+.LinksRodape ul li a{
+	color: #969FAA;
+	font-size: 18px;
+	left: 290px;
+	
+	position: relative;
+	text-decoration: none;
+	top: 50px;
+}
+.LinksRodape ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.Menu{
+	color: white;
+	left: 288px;
+	padding-bottom: 30px;
+	position: absolute;
+}
+.MenuRodape{
+	float: left;
+	left: 250px;
+}
+.NomeEscola{
+	background-color: black;
+	height: 60px;
+	position: relative;
+}
+.NomeEscola img{
+	position:absolute;
+	left: 640px;
+	top: 12px;
+}
+.NumeroCel{
+	top: 205px;
+}
+.NumeroFone{
+	top: 115px;
+}
+.TituloEmail{
+	top: 285px;
+}
+.TituloNomeEscola{
+	color: white;
+	position: absolute;
+	left: 680px;
+	top:20px;
+}
+.Rodape{
+	height: auto;
+	width: auto;
+}
+
+/*fim da configuração do rodape*/
+
+/* configuração das outras páginas itens em comum*/

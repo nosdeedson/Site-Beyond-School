@@ -1,0 +1,77 @@
+button{
+	background-color: #4BC767;
+	color: #47525E;
+	font-size: 16px;
+	left: 350px;
+	padding: 3px;
+	position: relative;
+	width: 100px;
+}
+#contato{
+	height: 200px;
+	margin-top: -120px;
+	position: relative;
+}
+#cel{
+	right: 10px;
+}
+#email{
+	right: 580px;
+}
+#formulario{
+	background-color: rgba(228,231,233, 0.5);
+	clear: both;
+	height: 600px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	position: relative;
+	left: 400px;
+	width: 500px;
+}
+.idpage{
+	position: absolute;
+	top: 750px;
+	left: 600px;
+}
+#msg{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	padding-top: 10px;
+}
+input{
+	background-color: #D3E6DB;
+	margin-bottom: 20px;
+	position: relative;
+	left: 120px;
+	text-align: center;
+	width: 250px;
+}
+#mapa, #email, #cel{
+	float: left;
+	height: 200px;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+}
+#mapa{
+	position: absolute;
+	left: 30px;
+}
+#msg{
+	color: #47525E;
+	font-size: 20px;
+	left: 80px;
+	padding-bottom: 3px;
+	position: relative;
+}
+textarea{
+	background-color: #D3E6DB;
+	left: 70px;
+	margin-bottom: 5px;
+	position: relative;
+}
+#tFale{
+	color: #343F4B;
+	padding-bottom: 10px;
+	text-align: center;
+}

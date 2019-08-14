@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Lista Alunos</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/telaadministrador.css">
+		<link rel="stylesheet" href="css/telaListaAlunos.css">
+	</head>
+	<body>
+		<header id="cabecalho">
+			<img id="logo" src="img/logopequeno.png" alt="logo da Beyond School">
+			<h1 id="titulo1">Beyond School</h1>
+			<h3 id="titulo2">Nome usuário</h3>
+			<img id="usuario" src="img/test3.jpg">
+			<hr>
+		</header>
+		<div id='botoes'>
+			<form>
+				<a href="telaAdministrador.html">Tela Administrador</a>
+				<a href="#">Professores</a>
+				<a href="#">Pais</a>
+				<a href="#">Turmas</a>
+			</form>
+		</div>
+		<div id="tabela">
+			<h3 id='liststudents'>Lista de Estudantes</h3>
+			<table class="headerTable">
+				<tr id='cab'>
+					<td><label id='turma' for='classes'>selecione a turma</label> <!-- <h3 id='turma'>Selecione a turma</h3>-->
+						<select id='lessons' name="classes">
+							<option value="iniciante">Iniciante Criança</option>
+							<option value="intermediario">Intermediário Criança</option>
+						</select> 
+					</td>
+					<td><label id='showalunos' for='quant'>Mostrar QTD alunos</label><!--<h3 id='showalunos'>Mostrar QTD alunos</h3>-->
+						<select id ='qtd' name="quant">
+							<option value="10">10</option>
+							<option value="10">25</option>
+							<option value="10">50</option>
+						</select>
+					</td>
+					<td><input id='ad' type="submit" value="Adicionar"></td>
+					<td><input id='print' type="submit" value="Imprimir"></td>
+				</tr>
+			</table>
+			<table class="alunos">
+				<tr>
+					<td class="atributo"></td>
+					<td class="atributo">ID<img src="img/setaCimaBaixo.png"></td>
+					<td class="atributo">Nome<img src="img/setaCimaBaixo.png"></td>
+					<td class="atributo">Responsável<img src="img/setaCimaBaixo.png"></td>
+					<td class="atributo">Telefone<img src="img/setaCimaBaixo.png"></td>
+					<td class="atributo">Enderço<img src="img/setaCimaBaixo.png"></td>
+					<td class="atributo">Ações</td>
+				</tr>
+				<tr>
+					<td class="atributo1"><input type="checkbox"></form></td>
+					<td class="atributo1">ID</td>
+					<td class="atributo1">Edson Jose de<br> Souza</td>
+					<td class="atributo1">Afonso Rodrigues de<br>Souza</td>
+					<td class="atributo1">(35) 9 9869-8374</td>
+					<td class="atributo1">Rua Zequinha Luiz 108,<br> Varginha Itajuá MG</td>
+					<td class="atributo1">
+						<section>
+							<input id='freq' type="button" value="Frequência">
+							<input id='ver' type="button" value="Ver">
+						</section>
+						<section>
+							<input id='editar' type="button" value="Editar">
+							<input id='del' type="button" value="Deletar">
+						</section>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

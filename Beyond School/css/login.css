@@ -1,0 +1,100 @@
+<body>:
+body{
+	background-color: #F8F8FF;
+	height: 800px;
+	width: 800px;
+}
+a{
+	color: #47525E;
+	text-decoration: none;
+}
+#beyond{
+	font-family:  "Times New Roman", Times, serif;
+	font-size: 22px;
+	float: left;
+	padding-left: 60px;
+	padding-top: 25px;
+}
+button{
+	background-color: #4BC767;
+	color: #47525E;
+	font-size: 16px;
+	left: 200px;
+	padding: 3px;
+	position: relative;
+	
+	width: 80px;
+}
+#corpo{
+	background-color: rgba(216,220,225, 0.5);
+	clear: both;
+	height: 200px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	position: relative;
+	left: 550px;
+	width: 300px;
+}
+input{
+	background-color: #D3E6DB;
+	margin-bottom: 20px;
+	position: relative;
+	left: 50px;
+	text-align: center;
+	width: 200px;
+}
+#lbl1, #lbl2{
+	color: #47525E;
+	font-family:  "Times New Roman", Times, serif;
+	font-size: 20px;
+	left: 50px;
+	position: relative;
+}
+#lbl1{
+	top: -10px;
+}
+#lbl2{
+	
+	top: -10px;
+}
+#linha{
+	background-color: #7E55F3;
+	clear: both;
+	height: 1px;
+}
+#logoMedio{
+	border-radius: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+
+#logoP{
+	float: left;
+	padding-left: 40px;
+}
+#senha{
+	color:#47525E;
+	font-size: 15px;
+	height: 20px;
+	left: 25px;
+	position: relative;
+	top: 32px;
+	width: 200px;
+}
+#seta{
+	left: 50px;
+	position: relative;
+	top: 10px;
+}
+#voltar{
+	background-color: #D3E6DB;
+	font-size: 18px;
+	height: 20px;
+	left: 50px;
+	position: relative;
+	text-align: center;
+	top: 30px;
+	width: 200px;
+}

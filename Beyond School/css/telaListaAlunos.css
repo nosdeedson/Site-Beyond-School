@@ -1,0 +1,116 @@
+/* configuração do header 
+	usa a confuguração da pagina telaadministrador
+  fim da configuração do header */
+
+/* configuração da div botões */
+#botoes a{
+	background-color: #D3E6DB;
+	color: #47525E;
+	font-size: 18px;
+	left: 20px;
+	margin: 10px;
+	padding: 3px;
+	position: relative;
+	text-decoration: none;
+}
+/* fim da configuração da div botões */
+/* configuração da div tabela */
+.headerTable, .alunos{
+	position: relative;
+	left: 45px;
+}
+#liststudents{
+	color: #47525E;
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#tabela{
+	background-color: rgba(214,224,233,0.5);
+	height: auto;
+	margin-left: 35px;
+	margin-top: 10px;
+	width: 1250px;	
+}
+
+/* confuguração da table headerTable */
+#ad, #print{
+	background-color: #D3E6DB;
+	color: #47525E;
+	font-size: 16px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+#cab{
+	padding: 3px;
+	height: 30px;
+}
+.headerTable{
+	border: 2px solid black;
+	width: 90%;
+}
+#lessons{
+	background-color: #D3E6DB;
+	color: #47525E;
+	font-size: 16px;
+	left: 5px;
+	position: relative;
+	top: 2px;
+}
+#qtd{
+	background-color: #D3E6DB;
+	color: #47525E;
+	font-size: 16px;
+	position: relative;
+	left: 5px;
+	top: 3px;
+}
+#turma, #showalunos{
+	color: #47525E;
+	font-size: 20px;
+	position: relative;
+	top: 0px;
+}
+
+/* fim da configuração da table headerTable*/
+
+/* configuração da table alunos */
+.alunos{
+	border: 3px solid black;
+	text-align: center;
+	width: 90%;
+}
+.atributo{
+	font-size: 20px;
+}
+.atributo1{
+	font-size: 16px;
+}
+.atributo, .atributo1{
+	color: #47525E;
+	padding-right: 10px;
+}
+.atributo, .atributo1{
+	border: 1px solid black;
+	text-align: center;
+}
+
+#editar, #del, #freq, #ver{
+	color: #47525E;
+	width: 80px;
+}
+#editar{
+	background-color: #77D353;
+}
+#del{
+	background-color: #F95F62;
+}
+#freq{
+	background-color:#00A6FF; 
+}
+
+#ver{
+	background-color: #FFBA5C;
+}
